@@ -28,3 +28,6 @@ for (var i = 0; i < katzDeliLine.length; i += 1) {
 }
 return "the line is currently:" + lineOrder;
 }
+console.log (takeANumber(katzDeliLine, "Bill"));
+console.log (takeANumber(katzDeliLine, "Jane"));
+console.log (takeANumber(katzDeliLine, 'Ann'))
