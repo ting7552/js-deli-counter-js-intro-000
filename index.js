@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine, name) {
   return ('Welcome, ' + name + ". You are number " + katzDeliLine.length + " in line.");
 }
 
-function nowServing(katzDeliLine, name) {
+function nowServing(katzDeliLine) {
 
   for (var i = 0; i < katzDeliLine.length; i += 1) {
     if (katzDeliLine.length === 0) {
