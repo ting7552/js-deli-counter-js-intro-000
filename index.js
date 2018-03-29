@@ -26,7 +26,7 @@ for (var i = 0; i < katzDeliLine.length; i += 1) {
   var name = katzDeliLine[i];
  lineOrder.push(' ' + (i + 1) + '. ' + name);
 }
-return "the line is currently:" + lineOrder;
+return "The line is currently:" + lineOrder;
 }
 console.log (takeANumber(katzDeliLine, "Bill"));
 console.log (takeANumber(katzDeliLine, "Jane"));
